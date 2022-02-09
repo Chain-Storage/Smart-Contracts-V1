@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/yurikaza/Desktop/chain-storage-test/contracts/BuyStorage.sol": {
-      "lastModificationDate": 1644313523337,
-      "contentHash": "5cef09ca6231d82096f9bfb6ae5761b0",
+      "lastModificationDate": 1644329884590,
+      "contentHash": "4af081337606f128d4dd02b9618bc925",
       "sourceName": "contracts/BuyStorage.sol",
       "solcConfig": {
         "version": "0.8.7",

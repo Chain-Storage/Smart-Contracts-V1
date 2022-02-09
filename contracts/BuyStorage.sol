@@ -12,23 +12,25 @@ contract BuyStorage {
     int256 year;
   }
 
-  constructor(string memory _role) {
-    _role = "standart";
-  }
-
   UserRole[] public userRoles;
 
   function currentRole() public view returns (UserRole[] memory) {
     return userRoles;
   }
 
+  function getBalance() public view returns (uint256) {
+    return address(this).balance;
+  }
+
   function buyGold(
+    address payable ownerAddress,
     int256 _day,
     int256 _month,
     int256 _year
-  ) public payable {
+  ) external payable {
     // require(msg.balance > msg.value)
     UserRole memory userRole;
+    ownerAddress.transfer(5000000000000000);
 
     userRole.userAddress = msg.sender;
     userRole.role = "gold";
@@ -40,13 +42,15 @@ contract BuyStorage {
   }
 
   function buyPreminum(
+    address payable ownerAddress,
     int256 _day,
     int256 _month,
     int256 _year
   ) public payable {
     // require(msg.balance > msg.value);
-    UserRole memory userRole;
+    ownerAddress.transfer(7000000000000000);
 
+    UserRole memory userRole;
     userRole.userAddress = msg.sender;
     userRole.role = "preminum";
     userRole.day = _day;
