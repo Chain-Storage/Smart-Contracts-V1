@@ -1,43 +1,6 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/yurikaza/Desktop/chain-storage-test/contracts/BuyStorage.sol": {
-      "lastModificationDate": 1644329884590,
-      "contentHash": "4af081337606f128d4dd02b9618bc925",
-      "sourceName": "contracts/BuyStorage.sol",
-      "solcConfig": {
-        "version": "0.8.7",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "hardhat/console.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.7"
-      ],
-      "artifacts": [
-        "BuyStorage"
-      ]
-    },
     "/home/yurikaza/Desktop/chain-storage-test/node_modules/hardhat/console.sol": {
       "lastModificationDate": 1643641304331,
       "contentHash": "cc4777addd464ea56fa35b1c45df0591",
@@ -145,6 +108,43 @@
       ],
       "artifacts": [
         "Greeter"
+      ]
+    },
+    "/home/yurikaza/Desktop/chain-storage-test/contracts/BuyGb.sol": {
+      "lastModificationDate": 1648455235699,
+      "contentHash": "b8bd2e6059cc73f5d4cb2694d7be2d1c",
+      "sourceName": "contracts/BuyGb.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "BuyGb"
       ]
     }
   }

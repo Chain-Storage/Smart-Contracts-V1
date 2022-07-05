@@ -35,7 +35,7 @@
   "scripts": {
     "test": "npx hardhat test",
     "deploy:SendFile": "npx hardhat run scripts/SendFile.deploy.ts --network matic",
-    "deploy:BuyStorage": "npx hardhat run scripts/BuyStorage.deploy.ts --network matic",
+    "deploy:BuyGb": "npx hardhat run scripts/BuyGb.deploy.ts --network matic",
     "deploy": "yarn compile && yarn deploy:SendFile",
     "compile": "npx hardhat compile"
   }
